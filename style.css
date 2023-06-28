@@ -1,0 +1,47 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+body{
+        background-image: linear-gradient( to right, #051937, #002768, #273199, #5f30c6, #9f12eb );
+        padding: 15px 50px 100px 50px;
+}
+
+.container{
+    text-align: center;
+    color: aliceblue;
+    justify-content: center;
+}
+.players{
+    margin-top: 10%;
+    justify-content:space-around;
+    display: flex;
+
+
+}
+
+img{
+    margin-top: 40px;
+}
+
+.but{
+    justify-content: center;
+    text-align: center;
+}
+
+button{
+    
+    margin: 5%;
+    font-size:1.5rem ;
+    height:2rem;
+    width:6rem;
+    border-radius:7px;
+}
+
+button:hover{
+    color: aqua;
+    background-color: black;
+}
